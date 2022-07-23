@@ -137,7 +137,13 @@ nav a {
     display: flex;
     flex-direction: row;
  }
+ .art4{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+ }
  .subArtimg{
+   
     width:30% ;
     display: block;
  }
