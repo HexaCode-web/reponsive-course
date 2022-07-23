@@ -1,0 +1,246 @@
+html{
+    font-size: 16px;
+}
+body{
+   
+    width: 1366px;
+    background-color: white;
+    margin-top: 0px;
+}
+/*==================================================================
+         GENERAL LAYOUT
+==================================================================*/
+.container{
+    width: 90%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+/*==================================================================
+         HEADER layout
+==================================================================*/
+.header{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+}
+.Hcontainer1{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    
+}
+ul{
+    
+    display: flex;
+}
+.Hcontent1{
+    
+    width: 100%;
+    line-height: 6px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Hcontainer2{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.currentPage{
+    border-bottom: 1px solid black;
+}
+/*==================================================================
+         HEADER TYPOGRAPHGY
+==================================================================*/
+
+#Htitle{
+    font-family:'Lora';
+    margin-bottom: 1px;
+    color: #143774;
+    font-weight: 200;
+    font-size: 3rem;
+}
+.header ul{
+
+    list-style: none;
+}
+.header li{
+    color: #717171;
+    font-family: 'Lora regular';
+    font-weight: normal;
+    margin-left:25px ;
+    font-size: 1.2rem;
+}
+
+#HSubtitle{
+    font-family: 'ubuntu';
+    font-weight: 400;
+    color: #1792D2;
+    margin-bottom: .2rem;
+    font-size:2rem;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+nav a {
+    color: black;
+}
+
+/*==================================================================
+         container2 layout
+==================================================================*/
+#mainimg{
+    width: 100%;
+}
+
+.container2{
+    column-gap: 2%;
+    display:grid;
+    grid-template-columns: 75% 23%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*==================================================================
+         MAINPOSTTTT
+==================================================================*/
+.MainPost{
+    border-bottom: 2px solid grey;
+}
+/*articalessssssssss*/
+.posts{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+ .art1{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+ }
+ .art2{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+ }
+ .art3{
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+ }
+ .subArtimg{
+    width:30% ;
+    display: block;
+ }
+.subArtcontent{
+    width: 65%;
+}
+/*==================================================================
+         SIDEBAR
+==================================================================*/
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.border{
+    border: 20px solid transparent;
+    background-color: #EBEBEB;
+}
+.Aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.sidebar img{
+    width: 90%;
+}
+.recent{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: white;
+}
+/*==================================================================
+         FOOTER
+==================================================================*/
+footer{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    background-color: #143774;
+    flex-direction: column;
+    line-height: 1%;
+}
+/*==================================================================
+         TYPOGRAPHY
+==================================================================*/
+
+/*MAINPOSTTTT + articles*/
+.keepReading{
+   font-size:1rem;
+   font-family: 'ubuntu';
+
+}
+
+.date{
+    font-size: .8rem;
+    font-family: 'Segoe UI';
+    color:#707070
+}
+h2{
+    color: #143774;
+    font-family: 'lora';
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.text{ 
+    font-weight: 200;
+    color: #707070;
+    font-family: 'ubuntu';
+    font-size: 1.2rem;
+}
+/*==================================================================
+         SIDEBAR
+==================================================================*/
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #143774;
+    font-family: 'ubuntu';
+}
+.sidebar p{
+    width: 90%;
+    font-size: 1rem;
+    color:#143774;
+    font-family: 'ubuntu';
+    font-weight: normal;
+}
+/*==================================================================
+         FOOTER
+==================================================================*/
+h6{
+    font-size: 1.2rem;
+    opacity: 54%;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-weight: lighter;
+    font-size: .8rem;
+    opacity: 54%;
+}
