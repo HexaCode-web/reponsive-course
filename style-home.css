@@ -2,8 +2,8 @@ html{
     font-size: 16px;
 }
 body{
-   
-    width: 1366px;
+    margin: auto;
+    width: 100%;
     background-color: white;
     margin-top: 0px;
 }
@@ -11,8 +11,8 @@ body{
          GENERAL LAYOUT
 ==================================================================*/
 .container{
-    width: 90%;
-    max-width: 1366px;
+    
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ ul{
     display: flex;
 }
 .Hcontent1{
-    
+    flex-wrap: warp;
     width: 100%;
     line-height: 6px;
     text-align: center;
@@ -48,7 +48,6 @@ ul{
 .Hcontainer2{
     display: flex;
     align-items: center;
-    font-size: 1rem;
 }
 .currentPage{
     border-bottom: 1px solid black;
@@ -115,28 +114,30 @@ nav a {
          MAINPOSTTTT
 ==================================================================*/
 .MainPost{
+    width: 100%;
     border-bottom: 2px solid grey;
 }
 /*articalessssssssss*/
 .posts{
+    width: 100%;
     display: flex;
     gap: 30px;
     flex-direction: column;
 }
- .art1{
+ .one{
     gap: 5%;
     display: flex;
-    flex-direction: row;
+  
  }
- .art2{
+ .two{
     gap: 5%;
     display: flex;
-    flex-direction: row;
+    
  }
- .art3{
+ .three{
     gap: 5%;
     display: flex;
-    flex-direction: row;
+    
  }
  .subArtimg{
     object-fit: contain;
@@ -247,4 +248,58 @@ h6{
     font-weight: lighter;
     font-size: .8rem;
     opacity: 54%;
+}
+@media (max-width:1050px) {
+    /*==================================================================
+         HEADER layout
+==================================================================*/
+    #Htitle{
+        font-size: 2rem;
+    }
+    #HSubtitle{
+        font-size: 1rem;
+    }
+    .header{
+        min-width: none;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Hcontent1{
+        width: 100%;
+    }
+    .Hcontainer2{
+        margin-right: 50px ;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ul{
+        gap: 20px;
+        width: 100%;
+        align-items:  center;
+        flex-direction: column;
+    }
+    .container2{
+        width: 100%;
+        grid-template-columns: none;
+        grid-template-rows: 55% 23%;
+    }
+    .content{
+        margin: auto;
+        margin-top: 0;
+        width: 50%;
+    }
+    .art{
+        flex-direction: column;
+    }
+    .subArtimg{
+        height: 200px;
+        width: 100%;
+    }
+    .subArtcontent{
+        width: 100%;
+    }
+    .Aboutme img{
+        width: 50%;
+    }
 }
