@@ -1,9 +1,13 @@
 html{
+    width: 100%;
+    overflow-x:hidden;
     font-size: 16px;
 }
+
 body{
-    min-width: 450px;
-    margin: auto;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
     width: 100%;
     background-color: white;
     margin-top: 0px;
@@ -14,7 +18,7 @@ body{
 .container{
     
     width: 100%;
-    margin: auto;
+   
     display: flex;
     flex-direction: column;
     gap: 80px;
