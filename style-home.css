@@ -1,13 +1,9 @@
 html{
     width: 100%;
-    overflow-x:hidden;
     font-size: 16px;
 }
 
 body{
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
     width: 100%;
     background-color: white;
     margin-top: 0px;
@@ -44,7 +40,6 @@ ul{
 .Hcontent1{
     flex-wrap: warp;
     width: 100%;
-    line-height: 6px;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -254,10 +249,11 @@ h6{
     font-size: .8rem;
     opacity: 54%;
 }
-@media (max-width:1050px) {
+@media (max-width:675px) {
     /*==================================================================
          HEADER layout
 ==================================================================*/
+   
     #Htitle{
         font-size: 2rem;
     }
@@ -265,7 +261,7 @@ h6{
         font-size: 1rem;
     }
     .header{
-        min-width: none;
+        min-width: 700px;
         width: 100%;
         align-items: center;
         flex-direction: column;
@@ -273,8 +269,12 @@ h6{
     .Hcontent1{
         width: 100%;
     }
+    .container{
+        width: 100%;
+        align-items: center;
+    }
     .Hcontainer2{
-        margin-right: 50px ;
+        margin-right: 100px ;
         justify-content: center;
         flex-direction: column;
     }
@@ -287,12 +287,12 @@ h6{
     .container2{
         width: 100%;
         grid-template-columns: none;
-        grid-template-rows: 55% 23%;
+        grid-template-rows: 63% fr;
     }
     .content{
         margin: auto;
         margin-top: 0;
-        width: 50%;
+        width: 100%;
     }
     .art{
         flex-direction: column;
@@ -306,5 +306,8 @@ h6{
     }
     .Aboutme img{
         width: 50%;
+    }
+    .footer{
+        width: 100%;
     }
 }
