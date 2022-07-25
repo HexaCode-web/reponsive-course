@@ -20,7 +20,7 @@ body{
          HEADER layout
 ==================================================================*/
 .header{
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     display: flex;
 }
@@ -258,7 +258,6 @@ h6{
         font-size: 1rem;
     }
     .header{
-        min-width: 700px;
         width: 100%;
         align-items: center;
         flex-direction: column;
