@@ -9,9 +9,7 @@ body{
          GENERAL LAYOUT
 ==================================================================*/
 .container{
-    
     width: 100%;
-   
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -31,8 +29,34 @@ body{
     
 }
 ul{
-    
     display: flex;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    margin:0 20px;
+    transition: 0.5s;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:black
+    padding:5px;
+    transition: .5s;
+}
+ul:hover li a {
+    transform: scale(1.2);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    filter: blur(0);
 }
 .Hcontent1{
     flex-wrap: warp;
